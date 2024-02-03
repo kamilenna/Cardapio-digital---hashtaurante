@@ -1,12 +1,14 @@
 import { enroladinhoMignon } from "./cardapio"
-export function ItemCardapio() {
+
+export function ItemCardapio(props) {
     return (
-        <div>
+        <div className="container-item-cardapio">
             <div>
-                <h2>{enroladinhoMignon.nome}</h2>
-                <p>{enroladinhoMignon.preço}</p>
-                <p>{enroladinhoMignon.descricao}</p>
+                <h2 className="nome-prato">{props.nome}</h2>
+                <p className="preco">{props.preco}</p>
+                <p className="descricao">{props.descricao}</p>
             </div>
+            <img src={props.imagem} alt="" />
         </div>
     )
 }

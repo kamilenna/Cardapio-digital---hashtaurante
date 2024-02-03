@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .navegacao {
@@ -41,9 +42,9 @@ input:checked + label {
   padding: 1rem;
   justify-content: space-evenly;
   border-radius: 10px;
-  box-shadow: -2px 2px 20px #002;
+  box-shadow: -2px 2px 20px rgba(0, 0, 34, 0.61);
   & > img {
-    height: 11rem;
+    height: 15rem;
   }
   & > div {
     display: flex;
@@ -72,5 +73,16 @@ input:checked + label {
   max-height: 15rem;
   width: 100%;
   object-fit: cover;
+}
+
+.preco {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000050;
+}
+
+.descricao {
+  font-size: 16px;
+  font-weight: 700;
 }
 
