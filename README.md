@@ -13,7 +13,7 @@
 <h2>👩‍🎓 O que aprendi</h2>
  Ao longo do projeto foi trabalhado criação de um projeto utilizando ReactJS + Vite, criação de componentes, utilização do State, map, props e criação de objetos e arrays para armazenar informação sobre cada prato.
 
-<h3><strong><a href="" target="_blank">Link do projeto</a></strong></h3>
+<h3><strong><a href="https://hashtaurante-cardapio.netlify.app/" target="_blank">Link do projeto</a></strong></h3>
 
 <br>
 
